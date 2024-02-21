@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./styles/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vkladka</title>
@@ -38,58 +39,74 @@
     </ul>
   </header>  
   <main>
-    <section>
+    <section class="hero">
         <p>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</p>
         <button>Заказать услугу</button>
     </section>
-    <section>
-        <ul>
-            <li>
-                <svg>
-                    <use href="./images/antenna.svg#antenna"></use>
-                </svg>
+    <section class="qualities">
+        <ul class="qualities-list">
+            <li class="qualities-item">
+                <div class="qualities-item_wrapper">
+                    <svg>
+                        <use href="./images/antenna.svg#antenna"></use>
+                    </svg>
+                </div>
                 <h3>ВНИМАНИЕ К ДЕТАЛЯМ</h3>
                 <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
-            <li>
-                <svg>
-                    <use href="./images/clock.svg#clock"></use>
-                </svg>
+            <li class="qualities-item">
+                <div class="qualities-item_wrapper">
+                    <svg>
+                        <use href="./images/clock.svg#clock"></use>
+                    </svg>
+                </div>
                 <h3>ПУНКТУАЛЬНОСТЬ</h3>
                 <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
             </li>
-            <li>
-                <svg>
-                    <use href="./images/diagram.svg#diagram"></use>
-                </svg>
+            <li class="qualities-item">
+                <div class="qualities-item_wrapper">
+                    <svg>
+                        <use href="./images/diagram.svg#diagram"></use>
+                    </svg>
+                </div>
                 <h3>ПЛАНИРОВАНИЕ</h3>
                 <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
             </li>
-            <li>
-                <svg>
-                    <use href="./images/astronaut.svg#astronaut"></use>
-                </svg>
+            <li class="qualities-item">
+                <div class="qualities-item_wrapper">
+                    <svg>
+                        <use href="./images/astronaut.svg#astronaut"></use>
+                    </svg>
+                </div>
                 <h3>СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
                 <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
         </ul>
     </section>
-    <section>
+    <section class="jobs">
         <h2>Чем мы занимаемся</h2>
-        <ul>
-            <li><img src="" alt=""><span>ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</span></li>
-            <li><img src="" alt=""><span>МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</span></li>
-            <li><img src="" alt=""><span>ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</span></li>
+        <ul class="jobs-list">
+            <li class="jobs-item"><img src="./images/job1@1x.jpg" alt="">
+                <div class="jobs-title_wrapper"><span>ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</span></div>
+            </li>
+            <li class="jobs-item"><img src="./images/job2@1x.jpg" alt="">
+                <div class="jobs-title_wrapper"><span>МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</span></div>
+            </li>
+            <li class="jobs-item"><img src="./images/job3@1x.jpg" alt="">
+                <div class="jobs-title_wrapper"><span>ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</span></div>
+            </li>
         </ul>
     </section>
-    <section>
+    <section class="team">
         <h2>Наша команда</h2>
-        <ul>
-            <li>
-                <img src="" alt="">
-                <span>Игорь Демьяненко</span>
-                <span>Product Designer</span>
-                <ul>
+        <ul class="team-list">
+            <li class="team-item">
+                <img src="/images/team1@1x.jpg" alt="">
+                <div>
+                    <span class="name">Игорь Демьяненко</span>
+                    <span class="position">Product Designer</span>
+                </div>
+                <ul class="team-socials">
                     <li>
                         <a href="">
                             <svg>
@@ -120,11 +137,13 @@
                     </li>
                 </ul>
             </li>
-            <li>
-                <img src="" alt="">
-                <span>Ольга Репина</span>
-                <span>Frontend Developer</span>
-                <ul>
+            <li class="team-item">
+                <img src="/images/team2@1x.jpg" alt="">
+                <div>
+                    <span class="name">Ольга Репина</span>
+                    <span class="position">Frontend Developer</span>
+                </div>
+                <ul class="team-socials">
                     <li>
                         <a href="">
                             <svg>
@@ -155,11 +174,13 @@
                     </li>
                 </ul>
             </li>
-            <li>
-                <img src="" alt="">
-                <span>Николай Тарасов</span>
-                <span>Marketing</span>
-                <ul>
+            <li class="team-item">
+                <img src="/images/team3@1x.jpg" alt="">
+                <div>
+                    <span class="name">Николай Тарасов</span>
+                    <span class="position">Marketing</span>
+                </div>
+                <ul class="team-socials">
                     <li>
                         <a href="">
                             <svg>
@@ -190,11 +211,13 @@
                     </li>
                 </ul>
             </li>
-            <li>
-                <img src="" alt="">
-                <span>Михаил Ермаков</span>
-                <span>UI Designer</span>
-                <ul>
+            <li class="team-item">
+                <img src="/images/team4@1x.jpg" alt="">
+                <div>
+                    <span class="name">Михаил Ермаков</span>
+                    <span class="position">UI Designer</span>
+                </div>
+                <ul class="team-socials">
                     <li>
                         <a href="">
                             <svg>
@@ -227,49 +250,61 @@
             </li>
         </ul>
     </section>
-    <section>
+    <section class="clients">
         <h2>Постоянные клиенты</h2>
-        <ul>
-            <li>
+        <ul class="clients-list">
+            <li class="clients-item">
                 <a href="#">
-                    <svg>
-                        <use href="./images/sprite.svg#icon-logo1"></use>
-                    </svg>
+                    <div class="clients-logo_wrapper">
+                        <svg>
+                            <use href="./images/sprite.svg#icon-logo1"></use>
+                        </svg>
+                    </div>
                 </a>
             </li>
-            <li>
+            <li class="clients-item">
                 <a href="#">
-                    <svg>
-                        <use href="./images/sprite.svg#icon-logo2"></use>
-                    </svg>
+                    <div class="clients-logo_wrapper">
+                        <svg>
+                            <use href="./images/sprite.svg#icon-logo2"></use>
+                        </svg>
+                    </div>
                 </a>
             </li>
-            <li>
+            <li class="clients-item">
                 <a href="#">
-                    <svg>
-                        <use href="./images/sprite.svg#icon-logo3"></use>
-                    </svg>
+                    <div class="clients-logo_wrapper">
+                        <svg>
+                            <use href="./images/sprite.svg#icon-logo3"></use>
+                        </svg>
+                    </div>
                 </a>
             </li>
-            <li>
+            <li class="clients-item">
                 <a href="#">
-                    <svg>
-                        <use href="./images/sprite.svg#icon-logo4"></use>
-                    </svg>
+                    <div class="clients-logo_wrapper">
+                        <svg>
+                            <use href="./images/sprite.svg#icon-logo4"></use>
+                        </svg>
+                    </div>
                 </a>
             </li>
-            <li>
+            <li class="clients-item">
                 <a href="#">
-                    <svg>
-                        <use href="./images/sprite.svg#icon-logo5"></use>
-                    </svg>
+                    <div class="clients-logo_wrapper">
+                        <svg>
+                            <use href="./images/sprite.svg#icon-logo5"></use>
+                        </svg>
+                    </div>
                 </a>
             </li>
-            <li>
+            <li class="clients-item">
                 <a href="#">
-                    <svg>
-                        <use href="./images/sprite.svg#icon-logo6"></use>
-                    </svg>
+                    <div class="clients-logo_wrapper">
+                        <svg>
+                            <use href="./images/sprite.svg#icon-object1"></use>
+                        </svg>
+                    </div>
                 </a>
             </li>
         </ul>

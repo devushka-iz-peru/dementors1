@@ -1,0 +1,160 @@
+body {
+    font-family: sans-serif;
+    
+}
+
+button {
+    border: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h2 {
+    color: #212121;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+
+header {
+    width: 100%;
+    height: fit-content;
+}
+
+.hero {
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(#2F303A66, #2F303A66), url(../images/back@1x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+}
+
+.hero p {
+    margin: 0px 0px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    width: 666px;
+    height: 120px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.hero button {
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    background-color: #2196f3;
+    margin-top: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.9;
+    border-radius: 4px;
+    padding: 10px 32px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.qualities-item_wrapper {
+    background-color: #f5f4fa;
+}
+
+.qualities-item {
+    width: 270px;
+}
+
+.qualities-item h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.qualities-item p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.jobs-item {
+    width: fit-content;
+    
+}
+
+.jobs-title_wrapper {
+    background-color: rgba(47, 48, 58, 0.8);
+    height: 70px;
+    color: #ffffff;
+}
+
+.jobs-item span {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.team {
+    background-color: #f5f4fa;
+}
+
+.team-socials svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+.name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.position {
+    color: #757575;
+}
+
+.team-socials a {
+    color: #afb1b8;
+}
+
+.team-item {
+    background-color:#ffffff;
+    width: fit-content;
+}
+
+.clients-logo_wrapper {
+    color: #AFB1B8;
+    fill: currentColor;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    height: 90px;
+    width: 170px;
+}
+
+.clients-logo_wrapper svg {
+    height: 60px;
+    width: 60px;
+}
